@@ -12,10 +12,13 @@ public class Jump : MonoBehaviour
     [SerializeField] private float jumpCooldown;
     [SerializeField] private float extraJumps;
     [SerializeField] private float coyoteJumpTime;
-    [SerializeField] private float movementBonus;
+
+    [Header("Variable Jump")]
+    [SerializeField] private float maxJumpTime;
+    [SerializeField] private float jumpTimeCounter;
+    [SerializeField] private bool isJumping;
 
     [Header("Jump Time")]
-    [SerializeField] private bool jumpAction;
     [SerializeField] private float remainingJumps;
     [SerializeField] private float jumpCooldownTimer;
 
@@ -30,6 +33,19 @@ public class Jump : MonoBehaviour
     private void FixedUpdate()
     {
         SetGravityUse();
+
+        if (isJumping)
+        {
+            if (jumpTimeCounter > 0)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpForce * planetGravitySettings.JumpForceMultiplier * 0.75f);
+                jumpTimeCounter -= Time.fixedDeltaTime;
+            }
+            else
+            {
+                isJumping = false;
+            }
+        }
     }
 
     public void getInput(InputAction.CallbackContext context)
@@ -38,32 +54,34 @@ public class Jump : MonoBehaviour
         {
             if (jumpCooldownTimer <= 0 && Time.time - physics.LastGroundTime <= coyoteJumpTime)
             {
-                JumpAction();
+                StartJump();
                 remainingJumps = extraJumps;
             }
             else if (jumpCooldownTimer <= 0 && Time.time - physics.LastGroundTime >= coyoteJumpTime && remainingJumps > 0)
             {
-                JumpAction();
+                StartJump();
                 remainingJumps -= 1;
             }
         }
+        else if (context.canceled)
+        {
+            isJumping = false;
+            jumpTimeCounter = 0;
+        }
     }
 
-    private void JumpAction()
+    private void StartJump()
     {
-        float speed = rb.linearVelocity.magnitude;
-        float bonus = movementBonus * speed;
-
-        rb.linearVelocity = new Vector3(rb.linearVelocityX, 0);
-        rb.AddForce(Vector2.up * (jumpForce * planetGravitySettings.JumpForceMultiplier + bonus), ForceMode2D.Impulse);
-
+        rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpForce * planetGravitySettings.JumpForceMultiplier);
+        
         jumpCooldownTimer = jumpCooldown;
+        isJumping = true;
+        jumpTimeCounter = maxJumpTime;
     }
 
     private void SetGravityUse()
     {
         Physics2D.gravity = new Vector3(0, planetGravitySettings.Gravity, 0);
     }
-
 
 }
