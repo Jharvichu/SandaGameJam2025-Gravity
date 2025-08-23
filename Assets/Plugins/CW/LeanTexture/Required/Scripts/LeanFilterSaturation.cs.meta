@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 8f1ddddd5bf25974c9c5ec58ef19301e
+timeCreated: 1430029397
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200591
+  packageName: Lean Texture
+  packageVersion: 2.1.0
+  assetPath: Assets/Plugins/CW/LeanTexture/Required/Scripts/LeanFilterSaturation.cs
+  uploadId: 653652

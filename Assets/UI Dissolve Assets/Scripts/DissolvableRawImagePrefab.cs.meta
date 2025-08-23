@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bd211827340ff82428edd1a98bff6285
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201729
+  packageName: UI dissolve
+  packageVersion: 1.2
+  assetPath: Assets/UI Dissolve Assets/Scripts/DissolvableRawImagePrefab.cs
+  uploadId: 722431

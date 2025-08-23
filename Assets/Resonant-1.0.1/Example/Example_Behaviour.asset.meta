@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 864d4270f84030044b386c677c36ba62
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 316689
+  packageName: Resonant
+  packageVersion: 1.0.1
+  assetPath: Assets/Resonant-1.0.1/Example/Example_Behaviour.asset
+  uploadId: 755707

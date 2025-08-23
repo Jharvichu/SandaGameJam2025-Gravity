@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7896ad7a15439614d912c2348a7f51eb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201729
+  packageName: UI dissolve
+  packageVersion: 1.2
+  assetPath: Assets/UI Dissolve Assets/Prefab/Dissolvable RawImage Prefab.prefab
+  uploadId: 722431

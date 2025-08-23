@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b24c978cb3a84b646991eeaf313bf61e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200591
+  packageName: Lean Texture
+  packageVersion: 2.1.0
+  assetPath: Assets/Plugins/CW/LeanTexture/Examples/01 Begin With Color.asset
+  uploadId: 653652

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: c641b25c6e774caa9eed8ba30e2dfff6
+timeCreated: 1740280744
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311787
+  packageName: Transform Enhancer
+  packageVersion: 1.0.0
+  assetPath: Assets/Transform Enhancer/Scripts/Editor/Reflections/LayoutDropdownWindowReflection.cs
+  uploadId: 739131

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b5319bca228c89848835fcfdecd25bd4
+timeCreated: 1430029397
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200591
+  packageName: Lean Texture
+  packageVersion: 2.1.0
+  assetPath: Assets/Plugins/CW/LeanTexture/Required/Scripts/LeanSample.cs
+  uploadId: 653652

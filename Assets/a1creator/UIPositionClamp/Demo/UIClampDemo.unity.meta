@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d595e100c55c29941ab02d33a84d8a3a
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315346
+  packageName: "UI Position Clamp \u2013 Keep RectTransform On Screen"
+  packageVersion: 1.0
+  assetPath: Assets/a1creator/UIPositionClamp/Demo/UIClampDemo.unity
+  uploadId: 745245

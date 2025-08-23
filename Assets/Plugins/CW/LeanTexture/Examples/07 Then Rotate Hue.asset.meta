@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f584c84bb36dddd489a20b96168fe466
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200591
+  packageName: Lean Texture
+  packageVersion: 2.1.0
+  assetPath: Assets/Plugins/CW/LeanTexture/Examples/07 Then Rotate Hue.asset
+  uploadId: 653652

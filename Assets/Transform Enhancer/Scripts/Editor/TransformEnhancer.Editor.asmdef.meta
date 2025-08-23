@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 85730675c4ead224687f70e7b3143a36
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311787
+  packageName: Transform Enhancer
+  packageVersion: 1.0.0
+  assetPath: Assets/Transform Enhancer/Scripts/Editor/TransformEnhancer.Editor.asmdef
+  uploadId: 739131

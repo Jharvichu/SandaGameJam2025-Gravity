@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4be5bb5f68c275d40807e3ca95a2830d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201729
+  packageName: UI dissolve
+  packageVersion: 1.2
+  assetPath: Assets/UI Dissolve Assets/Scripts/ExampleDissolveUsingTimeDelay.cs
+  uploadId: 722431

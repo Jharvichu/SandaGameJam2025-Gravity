@@ -1,0 +1,119 @@
+﻿:root {
+    --background: #181818;
+    --dark: rgb(30, 30, 30);
+    --light: rgb(61, 61, 61);
+    --bright: rgb(182, 182, 182);
+
+    --yellow: darkgoldenrod;
+    --yellow-dark: rgb(143, 107, 17);
+    --yellow-bright: #eaaf1e;
+
+    --unsaved: lightcoral;
+}
+
+.flex_row, .flex_column {
+    display: flex;
+}
+.flex_row {
+    flex-direction: row;
+    align-items: flex-start;
+}
+.flex_column {
+    flex-direction: column;
+}
+
+.top_row {
+    height: 8%;
+    align-items: center;
+    padding: 10px;
+}
+
+.title {
+    font-size: 25px;
+    -unity-font-style: bold;
+    color: var(--yellow-bright);
+}
+
+.unsaved {
+    font-size: 25px;
+    -unity-font-style: bold;
+    color: var(--unsaved);
+}
+
+.top_row Button, .unsaved {
+    margin-left: 15px;
+}
+
+.trigger {
+    width: 560px;
+}
+
+.trigger TextElement, .trigger TextField {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.reactions {
+    width: 100%;
+}
+
+.reaction_add { margin-bottom: 10px; }
+
+ResonantReactionRow {
+    padding: 8px;
+    align-items: center;
+}
+.reaction_a { background-color: var(--yellow); }
+.reaction_b { background-color: var(--yellow-dark); }
+
+ResonantReactionRow TextElement, ResonantReactionRow Label {
+    color: var(--background);
+}
+
+ResonantReactionRow TextField TextElement {
+    color: var(--yellow-bright);
+}
+
+ResonantReactionRow TextField, ResonantReactionRow Toggle {
+    margin-left: 20px;
+}
+
+ResonantReactionRow Button {
+    margin-right: 10px;
+}
+
+.reaction_name {
+    width: 160px;
+}
+
+ScrollView {
+    height: 92%;
+}
+
+TextField {
+    min-width: 250px;
+}
+
+TextElement, PopupTextElement, Label, Button, TextField {
+    font-size: 15px;
+    color: var(--bright);
+}
+
+TextField Label {
+    min-width: auto;
+}
+
+ResonantTriggerRow {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: var(--dark);
+}
+
+DropdownField VisualElement, TextInput {
+    background-color: var(--light);
+}
+
+Button {
+    color: var(--background);
+    background-color: var(--yellow-bright);
+}

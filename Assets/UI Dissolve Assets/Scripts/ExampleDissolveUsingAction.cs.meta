@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fe45304bcc55afa409d554728e9f265f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201729
+  packageName: UI dissolve
+  packageVersion: 1.2
+  assetPath: Assets/UI Dissolve Assets/Scripts/ExampleDissolveUsingAction.cs
+  uploadId: 722431

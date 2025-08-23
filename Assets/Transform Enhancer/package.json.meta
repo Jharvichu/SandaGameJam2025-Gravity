@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: db14a860822406f41b7a49cc85ab8d53
+PackageManifestImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311787
+  packageName: Transform Enhancer
+  packageVersion: 1.0.0
+  assetPath: Assets/Transform Enhancer/package.json
+  uploadId: 739131

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 15394ab9c5d17964cb3a804c9ed3bc69
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200591
+  packageName: Lean Texture
+  packageVersion: 2.1.0
+  assetPath: Assets/Plugins/CW/LeanTexture/Required/Shaders/Resources/Blit.shader
+  uploadId: 653652

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f93da95daa2e46c6bea1ee67498911b9
+timeCreated: 1740106275
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311787
+  packageName: Transform Enhancer
+  packageVersion: 1.0.0
+  assetPath: Assets/Transform Enhancer/Scripts/Editor/Reflections/ConstrainProportionsTransformScaleReflection.cs
+  uploadId: 739131

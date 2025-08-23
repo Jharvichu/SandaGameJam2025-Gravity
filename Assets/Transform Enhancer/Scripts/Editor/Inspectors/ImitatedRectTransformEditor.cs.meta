@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: da764c938de35fb4ebe3a8508bf11b41
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311787
+  packageName: Transform Enhancer
+  packageVersion: 1.0.0
+  assetPath: Assets/Transform Enhancer/Scripts/Editor/Inspectors/ImitatedRectTransformEditor.cs
+  uploadId: 739131

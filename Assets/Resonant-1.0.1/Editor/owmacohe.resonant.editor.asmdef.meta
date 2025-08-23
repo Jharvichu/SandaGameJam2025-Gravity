@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 64d62a03ae6f03841b1a84ed5345802b
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 316689
+  packageName: Resonant
+  packageVersion: 1.0.1
+  assetPath: Assets/Resonant-1.0.1/Editor/owmacohe.resonant.editor.asmdef
+  uploadId: 755707

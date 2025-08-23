@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 101d43e82618406788d8919808dec909
+timeCreated: 1740214238
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311787
+  packageName: Transform Enhancer
+  packageVersion: 1.0.0
+  assetPath: Assets/Transform Enhancer/Scripts/Editor/Reflections/EditorWindowReflection.cs
+  uploadId: 739131
