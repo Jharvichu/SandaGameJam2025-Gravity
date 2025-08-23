@@ -625,6 +625,7 @@ GameObject:
   - component: {fileID: 933445108}
   - component: {fileID: 933445111}
   - component: {fileID: 933445110}
+  - component: {fileID: 933445115}
   - component: {fileID: 933445113}
   - component: {fileID: 933445114}
   - component: {fileID: 933445112}
@@ -796,8 +797,8 @@ MonoBehaviour:
   airMultiplier: 1
   airFriction: 1
   groundFriction: 1
-  acceleration: 10
-  maxSpeed: 20
+  acceleration: 5
+  maxSpeed: 8
   input: {x: 0, y: 0}
 --- !u!114 &933445111
 MonoBehaviour:
@@ -913,7 +914,19 @@ MonoBehaviour:
     m_ActionId: b7230bb6-fc9b-4f52-8b25-f5e19cb2c2ba
     m_ActionName: 'Player/Next[/Keyboard/2]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 933445115}
+        m_TargetAssemblyTypeName: Run, Assembly-CSharp
+        m_MethodName: GetInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 641cd816-40e6-41b4-8c3d-04687c349290
     m_ActionName: 'Player/Sprint[/Keyboard/leftShift]'
   - m_PersistentCalls:
@@ -1011,7 +1024,7 @@ MonoBehaviour:
   jumpCooldown: 0.2
   extraJumps: 1
   coyoteJumpTime: 0.1
-  movementBonus: 0.8
+  movementBonus: 0.05
   jumpAction: 0
   remainingJumps: 0
   jumpCooldownTimer: 0
@@ -1030,6 +1043,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   black: {fileID: 11400000, guid: f4f9ffa36dd77f34d9aa1694349310e5, type: 2}
   white: {fileID: 11400000, guid: 5a7e60a17b9a3844cb87c999af307f04, type: 2}
+--- !u!114 &933445115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933445105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a528a51d8eefa0b4e84fd68d75fdc8d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 933445109}
+  move: {fileID: 933445110}
+  physics: {fileID: 933445111}
+  currentMaxSpeed: 0
+  desiredMaxSpeed: 0
+  lastDesiredMaxSpeed: 0
+  isRunning: 0
+  runAction: 0
+  walkMaxSpeed: 5
+  walkAcceleration: 8
+  runMaxSpeed: 15
+  runAcceleration: 20
+  timeSmoothing: 0.2
+  smoothingThreshold: 0.2
+  coyoteRunTime: 0.1
 --- !u!1 &1001168963
 GameObject:
   m_ObjectHideFlags: 0
