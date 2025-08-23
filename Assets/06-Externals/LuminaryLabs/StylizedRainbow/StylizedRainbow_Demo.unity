@@ -167,6 +167,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7973595084908601113, guid: 55c50af51d0f00643bb949eeec028494, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8508425692229727731, guid: 55c50af51d0f00643bb949eeec028494, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_C_White
@@ -229,6 +233,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7973595084908601113, guid: 85dd56114d612d74cbb69f52a782b96a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8508425692229727731, guid: 85dd56114d612d74cbb69f52a782b96a, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_C_Purple
@@ -251,9 +259,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2055098352}
     m_Modifications:
+    - target: {fileID: 4323296791114773, guid: b6fdcb9bd45cbd9409c5778abf7102cd, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1782504535291453183, guid: b6fdcb9bd45cbd9409c5778abf7102cd, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_S_Orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782504535291453183, guid: b6fdcb9bd45cbd9409c5778abf7102cd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7801998036403620276, guid: b6fdcb9bd45cbd9409c5778abf7102cd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -381,6 +397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StyalizedRainbow_Looping_Red
       objectReference: {fileID: 0}
+    - target: {fileID: 6445846836027813411, guid: ebc8bd793109cce438d53671a0c82a7d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -466,6 +486,10 @@ PrefabInstance:
     - target: {fileID: 4739996714829382857, guid: 4a56aa8cc32af0842a62c025a9ffdd8a, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_Looping_Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 6445846836027813411, guid: 4a56aa8cc32af0842a62c025a9ffdd8a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -553,6 +577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StyalizedRainbow_Looping_Magenta
       objectReference: {fileID: 0}
+    - target: {fileID: 6445846836027813411, guid: a5591186d0443a044ad402975398121d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -609,6 +637,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 211380666877289144, guid: ceac60aa434b28640aa4baa94e26f90a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973595084908601113, guid: ceac60aa434b28640aa4baa94e26f90a, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8508425692229727731, guid: ceac60aa434b28640aa4baa94e26f90a, type: 3}
@@ -701,6 +733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StyalizedRainbow_Looping_Orange
       objectReference: {fileID: 0}
+    - target: {fileID: 6445846836027813411, guid: 73361200439fc0346879fd963a04a451, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -719,9 +755,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2055098352}
     m_Modifications:
+    - target: {fileID: 4323296791114773, guid: 9aad519f1696f2f4a94015836ff1d971, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1782504535291453183, guid: 9aad519f1696f2f4a94015836ff1d971, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_S_Purple
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782504535291453183, guid: 9aad519f1696f2f4a94015836ff1d971, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7801998036403620276, guid: 9aad519f1696f2f4a94015836ff1d971, type: 3}
       propertyPath: m_LocalPosition.x
@@ -849,6 +893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StyalizedRainbow_Looping_Yellow
       objectReference: {fileID: 0}
+    - target: {fileID: 6445846836027813411, guid: 3f4df189466c42f43a06f85e335dbcef, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -905,6 +953,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 211380666877289144, guid: 1faebaae911bd054b99648cb09396477, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973595084908601113, guid: 1faebaae911bd054b99648cb09396477, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8508425692229727731, guid: 1faebaae911bd054b99648cb09396477, type: 3}
@@ -969,6 +1021,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7973595084908601113, guid: 81b09b9bdabe46e4eb0d3a8f81db7565, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8508425692229727731, guid: 81b09b9bdabe46e4eb0d3a8f81db7565, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_C_Pink
@@ -991,9 +1047,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2055098352}
     m_Modifications:
+    - target: {fileID: 4323296791114773, guid: cbe8b2a46e2da774e963607e51fd03b6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1782504535291453183, guid: cbe8b2a46e2da774e963607e51fd03b6, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_S_Magenta
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782504535291453183, guid: cbe8b2a46e2da774e963607e51fd03b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7801998036403620276, guid: cbe8b2a46e2da774e963607e51fd03b6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1234,6 +1298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StyalizedRainbow_Looping_Multicolored
       objectReference: {fileID: 0}
+    - target: {fileID: 6445846836027813411, guid: 5ef3ec5543a4d7840ba583f1dbf35b47, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1320,6 +1388,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StyalizedRainbow_Looping_White
       objectReference: {fileID: 0}
+    - target: {fileID: 6445846836027813411, guid: cd75ed710ab50934194c9c7a5806a407, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1338,9 +1410,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2055098352}
     m_Modifications:
+    - target: {fileID: 4323296791114773, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177270404409843145, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 25.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177270404409843145, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.8
+      objectReference: {fileID: 0}
     - target: {fileID: 1782504535291453183, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_S_White
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782504535291453183, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244682175146172356, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244682175146172356, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646229158560763367, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646229158560763367, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.6
       objectReference: {fileID: 0}
     - target: {fileID: 7801998036403620276, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1381,6 +1485,58 @@ PrefabInstance:
     - target: {fileID: 7801998036403620276, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897364376513132267, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897364376513132267, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 33.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216550292829764710, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.x
+      value: 3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216550292829764710, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.y
+      value: 6.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216550292829764710, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216550292829764710, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216550292829764710, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216550292829764710, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[4].m_Value.x
+      value: -21.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216550292829764710, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[4].m_Value.y
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216550292829764710, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[7].m_Value.x
+      value: 25.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216550292829764710, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[7].m_Value.y
+      value: 22.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216550292829764710, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[10].m_Value.x
+      value: -7.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216550292829764710, guid: 95309baef8c787243bf5978349b7d21b, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[10].m_Value.y
+      value: 33.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1468,6 +1624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StyalizedRainbow_Looping_Purple
       objectReference: {fileID: 0}
+    - target: {fileID: 6445846836027813411, guid: b128b1030aceb044e8a23c18cf5d0833, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1493,7 +1653,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1019700849
 Transform:
   m_ObjectHideFlags: 0
@@ -1568,6 +1728,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7973595084908601113, guid: 198d95a8e702b2049928aefae0e23187, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8508425692229727731, guid: 198d95a8e702b2049928aefae0e23187, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_C_Magenta
@@ -1597,7 +1761,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1082217257
 Transform:
   m_ObjectHideFlags: 0
@@ -1672,6 +1836,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7973595084908601113, guid: 24ad3886c0335354b92885c1cc80723b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8508425692229727731, guid: 24ad3886c0335354b92885c1cc80723b, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_C_Blue
@@ -1694,9 +1862,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2055098352}
     m_Modifications:
+    - target: {fileID: 4323296791114773, guid: 14f3d958d7d83bf42989341bf92ffa49, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1782504535291453183, guid: 14f3d958d7d83bf42989341bf92ffa49, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_S_Cyan
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782504535291453183, guid: 14f3d958d7d83bf42989341bf92ffa49, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7801998036403620276, guid: 14f3d958d7d83bf42989341bf92ffa49, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1756,9 +1932,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2055098352}
     m_Modifications:
+    - target: {fileID: 4323296791114773, guid: 70335f4c379a7724b9787263463a9a7f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1782504535291453183, guid: 70335f4c379a7724b9787263463a9a7f, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_S_Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782504535291453183, guid: 70335f4c379a7724b9787263463a9a7f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7801998036403620276, guid: 70335f4c379a7724b9787263463a9a7f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1810,166 +1994,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7801998036403620276, guid: 70335f4c379a7724b9787263463a9a7f, type: 3}
   m_PrefabInstance: {fileID: 1211615039}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1273962227
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1273962230}
-  - component: {fileID: 1273962229}
-  - component: {fileID: 1273962228}
-  - component: {fileID: 1273962231}
-  - component: {fileID: 1273962232}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &1273962228
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273962227}
-  m_Enabled: 1
---- !u!20 &1273962229
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273962227}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &1273962230
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273962227}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.15038373, y: -0.4924039, z: 0.08682408, w: 0.85286856}
-  m_LocalPosition: {x: 20, y: 25, z: -18.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 20, y: -60, z: 0}
---- !u!114 &1273962231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273962227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_AllowHDROutput: 1
-  m_UseScreenCoordOverride: 0
-  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
-  m_TaaSettings:
-    m_Quality: 3
-    m_FrameInfluence: 0.1
-    m_JitterScale: 1
-    m_MipBias: 0
-    m_VarianceClampScale: 0.9
-    m_ContrastAdaptiveSharpening: 0
---- !u!95 &1273962232
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273962227}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0788d3db0657c5147a8f3010f65427b1, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1313823788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2018,6 +2042,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7973595084908601113, guid: 3cea71da0ce037740a28f2f5f8d014f6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8508425692229727731, guid: 3cea71da0ce037740a28f2f5f8d014f6, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_C_Green
@@ -2032,6 +2060,143 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 211380666877289144, guid: 3cea71da0ce037740a28f2f5f8d014f6, type: 3}
   m_PrefabInstance: {fileID: 1313823788}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1360637465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1360637469}
+  - component: {fileID: 1360637468}
+  - component: {fileID: 1360637467}
+  - component: {fileID: 1360637466}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1360637466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360637465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!81 &1360637467
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360637465}
+  m_Enabled: 1
+--- !u!20 &1360637468
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360637465}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1360637469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360637465}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.1, y: 13.6, z: -29.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1461452677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2040,9 +2205,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2055098352}
     m_Modifications:
+    - target: {fileID: 4323296791114773, guid: 89fd58d39edae56429fd1617114a8d40, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1782504535291453183, guid: 89fd58d39edae56429fd1617114a8d40, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_S_Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782504535291453183, guid: 89fd58d39edae56429fd1617114a8d40, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7801998036403620276, guid: 89fd58d39edae56429fd1617114a8d40, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2170,6 +2343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StyalizedRainbow_Looping_Cyan
       objectReference: {fileID: 0}
+    - target: {fileID: 6445846836027813411, guid: 5527dd3c9b41bb5469fad4114d9d3010, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2256,6 +2433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StyalizedRainbow_Looping_Blue
       objectReference: {fileID: 0}
+    - target: {fileID: 6445846836027813411, guid: f097f9580f82e594096e9c0bdeacb6a7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2274,9 +2455,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2055098352}
     m_Modifications:
+    - target: {fileID: 4323296791114773, guid: 1bfee3c17f7264144a929b879c1c944c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1782504535291453183, guid: 1bfee3c17f7264144a929b879c1c944c, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_S_Pink
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782504535291453183, guid: 1bfee3c17f7264144a929b879c1c944c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7801998036403620276, guid: 1bfee3c17f7264144a929b879c1c944c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2336,9 +2525,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2055098352}
     m_Modifications:
+    - target: {fileID: 4323296791114773, guid: 7c0096dffdc58ab4aa1c6c97559bc2c7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1782504535291453183, guid: 7c0096dffdc58ab4aa1c6c97559bc2c7, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_S_Yellow
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782504535291453183, guid: 7c0096dffdc58ab4aa1c6c97559bc2c7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7801998036403620276, guid: 7c0096dffdc58ab4aa1c6c97559bc2c7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2398,13 +2595,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2055098352}
     m_Modifications:
+    - target: {fileID: 4323296791114773, guid: 03f96338dff3fb348aae5ef4a2cbf60b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1782504535291453183, guid: 03f96338dff3fb348aae5ef4a2cbf60b, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_S_Multicolored
       objectReference: {fileID: 0}
+    - target: {fileID: 1782504535291453183, guid: 03f96338dff3fb348aae5ef4a2cbf60b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7801998036403620276, guid: 03f96338dff3fb348aae5ef4a2cbf60b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 12.37
       objectReference: {fileID: 0}
     - target: {fileID: 7801998036403620276, guid: 03f96338dff3fb348aae5ef4a2cbf60b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2441,6 +2646,14 @@ PrefabInstance:
     - target: {fileID: 7801998036403620276, guid: 03f96338dff3fb348aae5ef4a2cbf60b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216550292829764710, guid: 03f96338dff3fb348aae5ef4a2cbf60b, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[4].m_Value.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216550292829764710, guid: 03f96338dff3fb348aae5ef4a2cbf60b, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[7].m_Value.x
+      value: 9.999999
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2528,6 +2741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StyalizedRainbow_Looping_Pink
       objectReference: {fileID: 0}
+    - target: {fileID: 6445846836027813411, guid: 76476f68cc895174ebe32333badc913a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2584,6 +2801,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 211380666877289144, guid: f52e0cd311ef6ae49b3a6430dbc16ba8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973595084908601113, guid: f52e0cd311ef6ae49b3a6430dbc16ba8, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8508425692229727731, guid: f52e0cd311ef6ae49b3a6430dbc16ba8, type: 3}
@@ -2650,9 +2871,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2055098352}
     m_Modifications:
+    - target: {fileID: 4323296791114773, guid: 3be28fd652524b84bbc44ffa02f52daf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1782504535291453183, guid: 3be28fd652524b84bbc44ffa02f52daf, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_S_Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782504535291453183, guid: 3be28fd652524b84bbc44ffa02f52daf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7801998036403620276, guid: 3be28fd652524b84bbc44ffa02f52daf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2712,6 +2941,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1019700849}
     m_Modifications:
+    - target: {fileID: 2416207320741879934, guid: 3b97b169e3aac8b4d83135719edd0da6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4124155605049625236, guid: 3b97b169e3aac8b4d83135719edd0da6, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_C_Multicolored
@@ -2814,6 +3047,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7973595084908601113, guid: f59c3b1cc5accb142aaa875ae5b24f6e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8508425692229727731, guid: f59c3b1cc5accb142aaa875ae5b24f6e, type: 3}
       propertyPath: m_Name
       value: StyalizedRainbow_C_Red
@@ -2832,8 +3069,8 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1273962230}
   - {fileID: 738786611}
   - {fileID: 2055098352}
   - {fileID: 1019700849}
   - {fileID: 1082217257}
+  - {fileID: 1360637469}

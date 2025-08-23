@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Example_Behaviour
   m_EditorClassIdentifier: 
   Triggers:
-  - ID: START_FOOTSTEPS
+  - ID: START_FOOTSTEP
     Reactions:
     - rid: 1249208141461848192
     - rid: 1249208141461848170
