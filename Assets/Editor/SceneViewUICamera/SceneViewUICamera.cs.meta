@@ -10,3 +10,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34807
+  packageName: Scene View UI Camera
+  packageVersion: 1.0
+  assetPath: Assets/Editor/SceneViewUICamera/SceneViewUICamera.cs
+  uploadId: 64052

@@ -42,7 +42,7 @@ public static class SceneViewUICamera
 	static SceneViewUICamera()
 	{
 		EditorApplication.update += Update;
-		SceneView.duringSceneGui += GUISceneView;
+		SceneView.onSceneGUIDelegate += GUISceneView;
 	}
 	#endregion
 
@@ -88,7 +88,7 @@ public static class SceneViewUICamera
 			Quaternion rot = new Quaternion(PlayerPrefs.GetFloat("LastViewRotationBeforeCanvasSelectionX"),
 											PlayerPrefs.GetFloat("LastViewRotationBeforeCanvasSelectionY"),
 											PlayerPrefs.GetFloat("LastViewRotationBeforeCanvasSelectionZ"),
-											PlayerPrefs.GetFloat("LastViewRotationBeforeCanvasSelectionW"));
+											PlayerPrefs.GetFloat("LastViewRotationBeforeCanvasSelectionW")) ;
 
 			IsViewSaved = savedIsViewSaved;
 			LastViewOrthoBeforeCanvasSelection = orthog;
@@ -122,7 +122,7 @@ public static class SceneViewUICamera
 
 		GUI.Box(new Rect(1, 1, 70, 34), "");
 
-		if (GUI.Toggle(new Rect(1, 1, 70, 17), IsActive, "UI mode") != IsActive)
+		if(GUI.Toggle(new Rect(1, 1, 70, 17), IsActive, "UI mode") != IsActive)
 		{
 			IsActive = !IsActive;
 			SavePrefs();
@@ -208,7 +208,7 @@ public static class SceneViewUICamera
 						LookAtCanvas(canvas.GetComponent<RectTransform>());
 						CurrentSelectedCanvas = canvasOwn;
 					}
-					else if (IsOrthographic != SavedSceneView.orthographic)
+					else if (IsOrthographic != SavedSceneView.orthographic) 
 					{
 						LookAtCanvas(canvas.GetComponent<RectTransform>());
 					}
@@ -253,7 +253,7 @@ public static class SceneViewUICamera
 		LastViewRotationBeforeCanvasSelection = activeSceneView.rotation;
 		LastViewSizeBeforeCanvasSelection = activeSceneView.size;
 		LastViewOrthoBeforeCanvasSelection = activeSceneView.orthographic;
-
+		
 		SavePrefs();
 	}
 
