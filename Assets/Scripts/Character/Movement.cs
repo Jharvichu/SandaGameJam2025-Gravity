@@ -6,6 +6,7 @@ public class Movement : MonoBehaviour
     [Header("Componentes")]
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private PhysicsManager physics;
+    [SerializeField] private Dash dash;
 
     [Header("Movement Parameters")]
     [SerializeField] private float airMultiplier;
@@ -19,16 +20,20 @@ public class Movement : MonoBehaviour
     [Header("Input")]
     [SerializeField] private Vector2 input;
     private bool isFacingRight = true;
+    public bool IsFacingRight => isFacingRight;
 
     // Propiedad para identificar si el personaje esta volteando
     public bool isTurning => (rb.linearVelocity.x > 0 && input.x < 0) || (rb.linearVelocity.x < 0 && input.x > 0);
 
     private void FixedUpdate()
     {
-        Move();
+        if (!dash.IsDashing)
+        {
+            Move();
+            FlipCharacter();
+        }
         Friction();
         LimitSpeed();
-        FlipCharacter();
     }
 
     public void GetInput(InputAction.CallbackContext contex)

@@ -19,7 +19,6 @@ public class Jump : MonoBehaviour
     [SerializeField] private bool isJumping;
 
     [Header("Jump Time")]
-    [SerializeField] private bool jumpAction;
     [SerializeField] private float remainingJumps;
     [SerializeField] private float jumpCooldownTimer;
 

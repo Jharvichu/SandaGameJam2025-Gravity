@@ -627,6 +627,7 @@ GameObject:
   - component: {fileID: 933445110}
   - component: {fileID: 933445115}
   - component: {fileID: 933445113}
+  - component: {fileID: 933445116}
   - component: {fileID: 933445114}
   - component: {fileID: 933445112}
   m_Layer: 0
@@ -794,6 +795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 933445109}
   physics: {fileID: 933445111}
+  dash: {fileID: 933445116}
   airMultiplier: 1
   airFriction: 1
   groundFriction: 1
@@ -1001,6 +1003,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: c3bc782d-3579-40c9-9690-9a4f0ffb6224
     m_ActionName: 'Player/Hole White[/Keyboard/e]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 933445116}
+        m_TargetAssemblyTypeName: Dash, Assembly-CSharp
+        m_MethodName: GetInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: cf94c6e2-9bf8-4e28-bf45-e8cf7d05f96e
+    m_ActionName: 'Player/Dash[/Keyboard/r]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -1024,8 +1042,9 @@ MonoBehaviour:
   jumpCooldown: 0.2
   extraJumps: 1
   coyoteJumpTime: 0.1
-  movementBonus: 0.05
-  jumpAction: 0
+  maxJumpTime: 0.3
+  jumpTimeCounter: 0
+  isJumping: 0
   remainingJumps: 0
   jumpCooldownTimer: 0
   planetGravitySettings: {fileID: 11400000, guid: ad0833fb104a2e645a0ae87ec3fd8367, type: 2}
@@ -1057,6 +1076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 933445109}
   move: {fileID: 933445110}
+  dash: {fileID: 933445116}
   physics: {fileID: 933445111}
   currentMaxSpeed: 0
   desiredMaxSpeed: 0
@@ -1067,9 +1087,33 @@ MonoBehaviour:
   walkAcceleration: 8
   runMaxSpeed: 15
   runAcceleration: 20
-  timeSmoothing: 0.2
-  smoothingThreshold: 0.2
+  dashMaxSpeed: 30
+  dashAcceleration: 30
+  timeSmoothing: 0.1
+  smoothingThreshold: 1
   coyoteRunTime: 0.1
+--- !u!114 &933445116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933445105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ead523c1ad3d9a4aabf30ef971e6a42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 933445109}
+  move: {fileID: 933445110}
+  physics: {fileID: 933445111}
+  dashSpeed: 30
+  dashDuration: 0.4
+  dashCooldown: 1
+  coyoteDashTime: 0.2
+  dashCooldownTimer: 0
+  dashTimeCounter: 0
+  isDashing: 0
 --- !u!1 &1001168963
 GameObject:
   m_ObjectHideFlags: 0

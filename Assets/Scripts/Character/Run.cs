@@ -7,6 +7,7 @@ public class Run : MonoBehaviour
     [Header("Componentes")]
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Movement move;
+    [SerializeField] private Dash dash;
     [SerializeField] private PhysicsManager physics;
 
     [Header("RunTime")]
@@ -25,6 +26,10 @@ public class Run : MonoBehaviour
     [SerializeField] private float runMaxSpeed;
     [SerializeField] private float runAcceleration;
 
+    [Header("Dashing")]
+    [SerializeField] private float dashMaxSpeed;
+    [SerializeField] private float dashAcceleration;
+
     [Header("Additional Configurations")]
     [SerializeField] private float timeSmoothing;
     [SerializeField] private float smoothingThreshold;
@@ -35,6 +40,8 @@ public class Run : MonoBehaviour
         ProcessInput();
         SetDesiredMaxSpeedAndAcceleration();
         SetCurrentMaxSpeed();
+
+        move.SetMaxSpeed(currentMaxSpeed);
     }
 
     public void GetInput(InputAction.CallbackContext context)
@@ -59,6 +66,11 @@ public class Run : MonoBehaviour
         {
             desiredMaxSpeed = runMaxSpeed;
             acceleration = runAcceleration;
+        }
+        if (dash.IsDashing)
+        {
+            desiredMaxSpeed = dashMaxSpeed;
+            acceleration = dashAcceleration;
         }
         else
         {
