@@ -24,6 +24,9 @@ public class Dash : MonoBehaviour
     public bool IsDashing => isDashing;
     private float baseGravity;
 
+    [Header("Animacion")]
+    [SerializeField] private Animator animator;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -42,6 +45,7 @@ public class Dash : MonoBehaviour
         {
             if (dashCooldownTimer <= 0 && Time.time - physics.LastGroundTime >= coyoteDashTime)
             {
+                animator.SetTrigger("Dash");
                 baseGravity = rb.gravityScale;
                 int direction = move.IsFacingRight ? 1 : -1;
                 StartCoroutine(DashAction(direction));

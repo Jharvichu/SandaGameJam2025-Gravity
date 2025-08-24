@@ -25,6 +25,9 @@ public class Jump : MonoBehaviour
     [Header("Planet Gravity")]
     [SerializeField] private GravitySettings planetGravitySettings;
 
+    [Header("Animacion")]
+    [SerializeField] private Animator animator;
+
     private void Update()
     {
         if (jumpCooldownTimer > 0) jumpCooldownTimer -= Time.deltaTime;
@@ -46,6 +49,10 @@ public class Jump : MonoBehaviour
                 isJumping = false;
             }
         }
+
+        animator.SetBool("IsGrounded", physics.OnGround);
+        animator.SetBool("Jump", isJumping);
+        animator.SetFloat("velocityY", rb.linearVelocityY);
     }
 
     public void getInput(InputAction.CallbackContext context)
@@ -54,6 +61,7 @@ public class Jump : MonoBehaviour
         {
             if (jumpCooldownTimer <= 0 && Time.time - physics.LastGroundTime <= coyoteJumpTime)
             {
+                animator.SetTrigger("BeforeJump");
                 StartJump();
                 remainingJumps = extraJumps;
             }
@@ -72,6 +80,7 @@ public class Jump : MonoBehaviour
 
     private void StartJump()
     {
+
         rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpForce * planetGravitySettings.JumpForceMultiplier);
         
         jumpCooldownTimer = jumpCooldown;
