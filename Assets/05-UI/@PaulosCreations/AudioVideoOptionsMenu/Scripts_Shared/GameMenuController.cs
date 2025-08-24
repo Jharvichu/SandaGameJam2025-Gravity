@@ -1,10 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
-using UnityEditor;
-using System.IO;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace PaulosMenuController
@@ -28,13 +22,13 @@ namespace PaulosMenuController
         // Use this for initialization
         void Awake()
         {
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
         }
 
         private void Start()
         {
+            Cursor.visible = false;
             mainCanvasObj.SetActive(false);
-
             graphicsPanelObj.SetActive(false);
             audioPanelObj.SetActive(false);
             optionsPanelObj.SetActive(false);
@@ -57,7 +51,6 @@ namespace PaulosMenuController
         public void ButtonOpenMenu()
         {
             Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
             if (pauseOnOpen)
             {
                 previousTimescale = Time.timeScale;//getting the current timescale
@@ -76,7 +69,6 @@ namespace PaulosMenuController
 
         public void ButtonCloseMenu()
         {
-            Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
             if (pauseOnOpen)
             {
