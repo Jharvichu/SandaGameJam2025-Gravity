@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a3308cb746c0474da847e2135ec74f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 4
   force: 10
   lifetime: 3
   affectableLayers:

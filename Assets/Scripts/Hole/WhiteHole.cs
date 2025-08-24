@@ -7,9 +7,9 @@ public class WhiteHole :HoleBase
         Collider2D[] objects = FindAffectableObjects();
         foreach (var obj in objects)
         {
+            Debug.Log($"Objeto detectado:W {obj.name}");
             if (obj.TryGetComponent(out IHoleAffatable affectable))
             {
-                Vector2 direction = (Vector2)obj.transform.position - (Vector2)transform.position;
                 affectable.OnRepelled(transform.position, force);
             }
         }

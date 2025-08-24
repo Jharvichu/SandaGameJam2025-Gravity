@@ -22,8 +22,17 @@ public class Movement : MonoBehaviour
     private bool isFacingRight = true;
     public bool IsFacingRight => isFacingRight;
 
+    [Header("Animacion")]
+    [SerializeField] private Animator animator;
+
     // Propiedad para identificar si el personaje esta volteando
     public bool isTurning => (rb.linearVelocity.x > 0 && input.x < 0) || (rb.linearVelocity.x < 0 && input.x > 0);
+
+    private void Update()
+    {
+        animator.SetBool("IsGrounded", physics.OnGround);
+        animator.SetBool("IsRunning", input.x != 0 && physics.OnGround);
+    }
 
     private void FixedUpdate()
     {
