@@ -17,6 +17,9 @@ public class Movement : MonoBehaviour
     [SerializeField] private float acceleration;
     [SerializeField] private float maxSpeed;
 
+    [Header("Slope")]
+    [SerializeField] private float maxSlopeAngle = 40f;
+
     [Header("Input")]
     [SerializeField] private Vector2 input;
     private bool isFacingRight = true;
@@ -40,6 +43,7 @@ public class Movement : MonoBehaviour
         {
             Move();
             FlipCharacter();
+            CheckSlope();
         }
         Friction();
         LimitSpeed();
@@ -83,6 +87,24 @@ public class Movement : MonoBehaviour
         {
             isFacingRight = !isFacingRight;
             transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        }
+    }
+
+    private void CheckSlope()
+    {
+        if (physics.OnGround && physics.GroundHit.collider != null)
+        {
+            float slopeAngle = Vector2.Angle(physics.GroundHit.normal, Vector2.up);
+
+            if (slopeAngle > 0.1f)
+            {
+                float targetAngle = Mathf.Clamp(slopeAngle, -maxSlopeAngle, maxSlopeAngle);
+                transform.rotation = Quaternion.Euler(0f, 0f, targetAngle);
+            }
+            else
+            {
+                transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+            }
         }
     }
 
