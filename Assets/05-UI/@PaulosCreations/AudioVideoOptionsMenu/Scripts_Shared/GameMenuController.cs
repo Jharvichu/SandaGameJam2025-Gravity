@@ -1,0 +1,115 @@
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+
+namespace PaulosMenuController
+{
+    public class GameMenuController : MonoBehaviour
+    {
+        [Header("Should the game pause when opening the menu ?")]
+        [SerializeField]
+        private bool pauseOnOpen = true;
+        [Space(10)]
+        [SerializeField]
+        private GameObject mainCanvasObj;
+        [SerializeField]
+        private GameObject mainMenuPanelObj, optionsPanelObj, graphicsPanelObj, audioPanelObj;
+        [SerializeField]
+        private GameObject closeGameImageObj;
+
+        private float previousTimescale;
+        private bool menuOpen;
+
+        // Use this for initialization
+        void Awake()
+        {
+            //DontDestroyOnLoad(gameObject);
+        }
+
+        private void Start()
+        {
+            Cursor.visible = false;
+            mainCanvasObj.SetActive(false);
+            graphicsPanelObj.SetActive(false);
+            audioPanelObj.SetActive(false);
+            optionsPanelObj.SetActive(false);
+            mainMenuPanelObj.SetActive(true);
+
+            closeGameImageObj.SetActive(false);
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                if (menuOpen)
+                    ButtonCloseMenu();
+                else
+                    ButtonOpenMenu();
+            }
+        }
+        public void ButtonOpenMenu()
+        {
+            Cursor.visible = true;
+            if (pauseOnOpen)
+            {
+                previousTimescale = Time.timeScale;//getting the current timescale
+                Time.timeScale = 0;//Pausing time
+            }
+
+            graphicsPanelObj.SetActive(false);
+            audioPanelObj.SetActive(false);
+            optionsPanelObj.SetActive(false);
+            mainMenuPanelObj.SetActive(true);
+
+            mainCanvasObj.SetActive(true);
+
+            menuOpen = true;
+        }
+
+        public void ButtonCloseMenu()
+        {
+            Cursor.visible = false;
+            if (pauseOnOpen)
+            {
+                Time.timeScale = previousTimescale;//unpausing time
+            }
+
+            mainCanvasObj.SetActive(false);
+
+            graphicsPanelObj.SetActive(false);
+            audioPanelObj.SetActive(false);
+            optionsPanelObj.SetActive(false);
+            mainMenuPanelObj.SetActive(true);
+
+            menuOpen = false;
+        }
+
+        public void ButtonQuitGame()
+        {
+            SceneManager.LoadScene(0); // Assuming the main menu is at index 0
+        }
+
+        //for testing/Debugging.
+        public void DeleteSavedSettings()
+        {
+            PlayerPrefs.DeleteKey("Qualitylevel");
+            PlayerPrefs.DeleteKey("ResolutionX");
+            PlayerPrefs.DeleteKey("ResolutionY");
+            PlayerPrefs.DeleteKey("antiAliasSlider");
+            PlayerPrefs.DeleteKey("RenderScale");
+            PlayerPrefs.DeleteKey("WindowedMode");
+            PlayerPrefs.DeleteKey("VSync");
+            PlayerPrefs.DeleteKey("AntiAliaslevel");
+            PlayerPrefs.DeleteKey("TextureQuality");
+            PlayerPrefs.DeleteKey("AnisotropicMode");
+            PlayerPrefs.DeleteKey("AnisotropicLevel");
+
+            PlayerPrefs.DeleteKey("muted");
+            PlayerPrefs.DeleteKey("mainVolume");
+            PlayerPrefs.DeleteKey("fxVolume");
+            PlayerPrefs.DeleteKey("musicVolume");
+            PlayerPrefs.DeleteKey("speakerMode");
+        }
+    }
+}

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: c55379e82a87446c97179b31bcccf4f5
+timeCreated: 1740057849
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311787
+  packageName: Transform Enhancer
+  packageVersion: 1.0.0
+  assetPath: Assets/Transform Enhancer/Scripts/Editor/Reflections/LocalizationDatabaseReflection.cs
+  uploadId: 739131

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 57d0ff9b5f4544c78f8379a63406ff83
+timeCreated: 1740213552
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311787
+  packageName: Transform Enhancer
+  packageVersion: 1.0.0
+  assetPath: Assets/Transform Enhancer/Scripts/Editor/Reflections/SceneViewReflection.cs
+  uploadId: 739131

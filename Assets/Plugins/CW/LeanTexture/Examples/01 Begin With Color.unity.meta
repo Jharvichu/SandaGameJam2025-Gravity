@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4f860e0b9005cc54fa29a88a62ad9b79
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200591
+  packageName: Lean Texture
+  packageVersion: 2.1.0
+  assetPath: Assets/Plugins/CW/LeanTexture/Examples/01 Begin With Color.unity
+  uploadId: 653652

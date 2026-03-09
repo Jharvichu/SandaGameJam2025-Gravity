@@ -1,0 +1,16 @@
+{
+    "name": "owmacohe.resonant.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cd0c867d4783b0242af20644f4b6a074"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

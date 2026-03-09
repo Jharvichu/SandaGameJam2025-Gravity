@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 1b78ea8c13694a76a84a2d0bdc6f5c57
+timeCreated: 1740214591
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311787
+  packageName: Transform Enhancer
+  packageVersion: 1.0.0
+  assetPath: Assets/Transform Enhancer/Scripts/Runtime/Reflections/RectTransformReflection.cs
+  uploadId: 739131

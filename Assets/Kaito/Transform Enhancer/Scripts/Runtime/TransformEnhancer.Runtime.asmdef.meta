@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 4e37af9c69a14ab6b375e3e35ab98d19
+timeCreated: 1740214549
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311787
+  packageName: Transform Enhancer
+  packageVersion: 1.0.0
+  assetPath: Assets/Transform Enhancer/Scripts/Runtime/TransformEnhancer.Runtime.asmdef
+  uploadId: 739131

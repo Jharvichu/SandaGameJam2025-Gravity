@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e6d9c72fd01738240af62132a591c0ec
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200591
+  packageName: Lean Texture
+  packageVersion: 2.1.0
+  assetPath: Assets/Plugins/CW/LeanTexture/Examples/06 Then Modify Brightness.unity
+  uploadId: 653652

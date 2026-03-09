@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 86cc40f318eb49ca84b485afe487fdfe
+timeCreated: 1740213795
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311787
+  packageName: Transform Enhancer
+  packageVersion: 1.0.0
+  assetPath: Assets/Transform Enhancer/Scripts/Editor/Reflections/GUIViewReflection.cs
+  uploadId: 739131

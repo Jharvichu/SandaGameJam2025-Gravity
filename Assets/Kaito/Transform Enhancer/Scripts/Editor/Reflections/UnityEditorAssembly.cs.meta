@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 516ad12eb5fa41f39e13262a96545407
+timeCreated: 1740058126
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311787
+  packageName: Transform Enhancer
+  packageVersion: 1.0.0
+  assetPath: Assets/Transform Enhancer/Scripts/Editor/Reflections/UnityEditorAssembly.cs
+  uploadId: 739131

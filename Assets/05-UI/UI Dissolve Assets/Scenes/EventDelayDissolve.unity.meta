@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e54f7eba0e16a784bb3a3ddf4036996a
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201729
+  packageName: UI dissolve
+  packageVersion: 1.2
+  assetPath: Assets/UI Dissolve Assets/Scenes/EventDelayDissolve.unity
+  uploadId: 722431

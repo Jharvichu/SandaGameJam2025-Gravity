@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 466a55146c23d404f9eae6fb5b9911fb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 318253
+  packageName: customized objects gravity
+  packageVersion: 1.0.0
+  assetPath: Assets/cusomized objects gravity/script/customized_objects_gravity.cs
+  uploadId: 751589

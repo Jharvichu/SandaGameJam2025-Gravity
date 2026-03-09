@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a878f5fd7794e0b46ba2640486173d11
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 318253
+  packageName: customized objects gravity
+  packageVersion: 1.0.0
+  assetPath: Assets/cusomized objects gravity/script/demo_scene_controller.cs
+  uploadId: 751589

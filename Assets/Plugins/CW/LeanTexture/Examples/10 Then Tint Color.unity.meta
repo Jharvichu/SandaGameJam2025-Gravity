@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5ba3dd6e7988c2247b4cf615229b7cc6
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200591
+  packageName: Lean Texture
+  packageVersion: 2.1.0
+  assetPath: Assets/Plugins/CW/LeanTexture/Examples/10 Then Tint Color.unity
+  uploadId: 653652

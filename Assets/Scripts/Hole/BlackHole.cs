@@ -7,9 +7,10 @@ public class BlackHole : HoleBase
         Collider2D[] objects = FindAffectableObjects();
         foreach (var obj in objects)
         {
+            Debug.Log($"Objeto detectado N: {obj.name}");
             if (obj.TryGetComponent(out IHoleAffatable affectable))
             {
-                Vector2 direction = (Vector2)transform.position - (Vector2)obj.transform.position;
+                Debug.Log($"Objeto detectado afectado N: {obj.name}");
                 affectable.OnAttracted(transform.position, force);
             }
         }

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e323456a7f28cde46a0a2a6febff9090
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200591
+  packageName: Lean Texture
+  packageVersion: 2.1.0
+  assetPath: Assets/Plugins/CW/LeanTexture/LeanTexture.asmdef
+  uploadId: 653652
